@@ -1,0 +1,194 @@
+@font-face {
+    font-family: "MiFuente";
+    src: url(../font/Quicksand-VariableFont_wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    margin: 0;
+    display: flex;
+    align-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../Img/Background.svg");
+    font-family: "MiFuente", sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+}
+.tarjeta{
+    width: 70%;
+    height: 90%;
+    margin: auto;
+    display: flex;
+    
+    
+}
+.tarjeta-perfil-img{
+    width: 100%;
+    border-radius: 20px;
+    
+}
+.tarjeta-perfil{
+    background-color: #202020;
+    width: 25%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin-right: 0.5rem;
+    font-size: 0.7rem;
+    border-radius: 20px;
+    
+}
+.tarjeta-perfil-h1{
+    text-align: center;
+    border-bottom: 1px solid white;
+    color: rgba(255, 255, 255, 0.829);
+    font-weight: bold;
+}
+.tarjeta-perfil-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 60%;
+}
+.tarjeta-perfil-contact-card{
+    margin: 1rem;
+    box-sizing: border-box;
+    
+}
+.tarjeta-perfil-contact-card-item{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.829);
+}
+.tarjeta-perfil-contact-card-item-img{
+    width: 48px;
+    height: 48px;
+    float: left;
+    margin-right: 0.3rem;
+}
+.tarjeta-perfil-contact-card-item-tittle{
+    font-size: 0.6rem;
+    margin: 0;
+    overflow: hidden;
+    margin-bottom: 0.2rem;
+    
+}
+.tarjeta-perfil-contact-card-item-info{
+    font-size: 0.7rem;
+    margin: 0;
+    white-space: nowrap;  /* Evita que el texto se divida en varias líneas */
+    overflow: hidden;  /* Oculta el contenido que se sale del contenedor */
+    text-overflow: ellipsis;
+       
+}
+.tarjeta-info{
+    background-color: #202020;
+    overflow: auto;
+    border-radius: 20px;
+    color: rgba(255, 255, 255, 0.829);
+    padding: 1rem;
+
+    
+}
+.tarjeta-info::-webkit-scrollbar{
+    display: none;
+    
+}
+.tarjeta-info-acerca{
+    margin: 1rem;
+}
+.tarjeta-info-acerca-tittle{
+    margin: 0;
+}
+.tarjeta-info-acerca-p{
+    text-align: justify;
+}
+.tarjeta-info-experiencia{
+    margin: 1rem;
+}
+.tarjeta-info-experiencia-tittle{
+    margin: 0;
+}
+.tarjeta-info-educacion{
+    margin: 1rem;
+}
+.tarjeta-info-educacion-tittle{
+    margin: 0;
+}
+.tarjeta-info-habilidades{
+    margin: 1rem;
+}
+.tarjeta-info-habilidades-Skill-tittle{
+    margin: 0;
+}
+.tarjeta-info-proyectos{
+    margin: 1rem;
+    padding-bottom: 1rem;
+}
+.tarjeta-info-proyectos-tittle{
+    margin: 0;
+    
+}
+.tarjeta-info-habilidades-Skill-Cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tarjeta-info-habilidades-Skill-Cards-Card-h3{
+    display: inline;
+    margin: 0;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.tarjeta-info-habilidades-Skill-Cards-Card{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 20%;
+    margin: 0.5rem;
+}
+.tarjeta-info-habilidades-Skill-Cards-Card-Img{
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+}
+.tarjeta-info-proyectos-Cards-Card{
+    display: flex;
+    margin: 0 1rem;
+    padding: 0.5rem;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 5px;
+}
+.tarjeta-info-proyectos-Cards-Card-a{
+    text-decoration: none;
+}
+.tarjeta-info-proyectos-Cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.tarjeta-info-proyectos-Cards-Card-info-t{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.829);
+    display: block;
+    margin: 0 0 0.2rem;
+
+}
+.tarjeta-info-proyectos-Cards-Card-info-P{
+    margin: 0;
+    padding: 0.1rem 0.3rem;
+    background-color: rgba(99, 211, 255, 0.836);
+    color: #202020;
+    display: inline-block;
+    border-radius: 8px;
+}
+.tarjeta-info-proyectos-Cards-Card-Img{
+    margin-right: 0.3rem;
+    width: 50px;
+    height: 50px;
+    
+}
